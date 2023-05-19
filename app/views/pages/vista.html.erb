@@ -1,0 +1,6 @@
+<h1>Listado </h1>
+<% Character.all.each do |character| %>
+  <p>Nombre personaje: <%= character.name %></p>
+  <p>Locación: <%= character.location %></p>
+  <p>Casa de estudio: <%= character.house %></p><br><br>
+<% end %>
